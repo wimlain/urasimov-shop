@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urasinov Shop</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .overlay {
+            min-height: 100vh;
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        header {
+            padding: 25px 50px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        .hero {
+            min-height: 75vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 65px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .button {
+            display: inline-block;
+
+            margin-top: 30px;
+            padding: 15px 35px;
+
+            background: white;
+            color: black;
+
+            text-decoration: none;
+            border-radius: 30px;
+
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+    <header>
+
+        <div class="logo">
+            URASINOV
+        </div>
+
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Каталог</a>
+            <a href="#">Контакты</a>
+        </nav>
+
+    </header>
+
+
+    <section class="hero">
+
+        <div>
+
+            <h1>URASINOV</h1>
+
+            <p>
+                Добро пожаловать в наш магазин
+            </p>
+
+            <a href="#" class="button">
+                Смотреть товары
+            </a>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+
+</html>
